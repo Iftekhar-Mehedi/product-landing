@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header {
+	overflow:hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+  background-color:#219EFB;
+  z-index: 100000;
+  position:fixed;
+}
+.brand {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  height: 60px;
+  border-radius:5px;
+}
+
+.title {
+  font-family: Arial, cursive;
+  font-size: 3em;
+  color: #fff;
+  margin: 0.2em 0 0 0;
+  align-items: center;
+}
+
+.main-nav{background:#219EFB;min-height:45px;}
+.main-nav ul{margin:0px;padding:0px;list-style:none;}
+.main-nav ul li{float:left;position:relative}
+.main-nav ul li a{text-decoration:none;display:block;padding:14px 70px 14px 70px;color:#323232}
+.main-nav ul li a:hover{background-color:#219EFB;color:#fff;z-index:999999999999px}
+
+.perfume-video {
+  overflow: hidden;
+}
+.video {
+  width: 100%;
+  max-height:auto;
+}
+
+
+
+#pricing {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.product>.level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.product>h2 {
+    margin-top: 15px;
+}
+
+.product>ol {
+    margin: 15px 0;
+}
+
+.product>ol>li {
+    padding: 5px 0;
+}
+
+#form {
+  position: relative;
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #05c464;
+  color: #fff;
+}
+
+#form p {
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+
+#form .email-input {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+#form .email-input #email {
+  width: 250px;
+  font-size: 16px;
+  padding-left: 15px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#form #submit {
+  font-size: 16px;
+  color: #fff;
+  background: #05572e;
+  border: none;
+  padding: 0 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#contact {
+  width: 100%;
+  padding: 30px 0;
+  background: #068545;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+}
+
+#contact .footer-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .footer-nav a {
+  color: #fff;
+}
+
+#contact .footer-nav a:not(:last-child),
+#contact .contact-info p:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+#contact .social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact .social-media .icons {
+  display: flex;
+  padding-top: 10px;
+}
+
+#contact .social-media .icons .icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+#contact .social-media .icons .icon:not(:last-child) {
+  margin-right: 5px;
+}
